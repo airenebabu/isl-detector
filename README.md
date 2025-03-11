@@ -1,6 +1,6 @@
 # 🖐 **Indian Sign Language (ISL) Detector**
 
-![ISL Detector](https://your-image-url.com/banner.png)  
+![ISL Detector] 
 *A real-time AI-powered sign language recognition system that translates hand gestures into text and speech.*
 
 ## 📌 **Overview**
