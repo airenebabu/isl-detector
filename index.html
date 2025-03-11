@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video & Text Viewer</title>
+  <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="frame video-frame">
+      <video id="video" width="640" height="480" autoplay></video>
+    </div>
+    <div class="frame text-frame">
+      <div id="label"></div>
+      <textarea id="sentence" placeholder="Constructed sentence will appear here..." readonly></textarea>
+      <button id="speakButton" class="tab">Speak Sentence</button>
+      <button id="clearButton" class="tab">Clear Sentence</button>
+      <button id="correctButton" class="tab">Correct Sentence</button>
+
+
+
+    </div>
+  </div>
+</body>
+<script src="./static/main.js"></script>
+</html>
